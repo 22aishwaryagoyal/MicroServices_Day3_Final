@@ -1,0 +1,4 @@
+server:
+  port: 9012
+spring:  profiles:    active: native
+  cloud:    config:      server:        bootstrap: true
